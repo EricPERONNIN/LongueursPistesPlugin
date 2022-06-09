@@ -1,0 +1,31 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Mesure de longueurs de pistes",
+    "description": "Mesurer la longueur de tous les nets et de la piste sélectionnée",
+    "description_full": "Ce plugin permet de mesurer la longueur de tous les nets d'un circuit ainsi que la longueur des pistes sélectionnées.\nNotez que la mesure s'effectue à partir du centre des segments et ne constitue pas une mesure de la longueur minimale.",
+    "identifier": "fr.geii",
+    "type": "plugin",
+    "author": {
+        "name": "eric",
+        "contact": {
+            "email": "eric@geii.fr"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "Github": "https://github.com/openscopeproject/InteractiveHtmlBom"
+    },
+    "tags": [
+        "pcbnew",
+        "track",
+        "length"
+    ],
+    "versions": [{
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "6.0.5",
+            "download_url": "https://github.com/openscopeproject/InteractiveHtmlBom/releases/download/v2.4.1/InteractiveHtmlBom_v2.4.1_pcm.zip",
+            "platforms": ["linux", "macos", "windows"]
+        }
+    ]
+}
